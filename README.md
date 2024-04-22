@@ -20,9 +20,7 @@ This extension adds a search engine that behaves just like regular Google Search
 
 ### 1. Enable unsigned addons.
 
-> NOTE: This does not work on regular Firefox. It only works on Firefox Extended Support Release (ESR), Firefox Developer Edition and Nightly. Personally, I use ESR.
-
-**Note:** This only works on Firefox Extended Support Release (ESR), Firefox Developer Edition, and Nightly.
+**Note:** This does not work on regular Firefox. It only works on Firefox Extended Support Release (ESR), Firefox Developer Edition and Nightly. Personally, I use ESR.
 
 - Go to `about:config`.
 - Set `xpinstall.signatures.required` to `false`.
