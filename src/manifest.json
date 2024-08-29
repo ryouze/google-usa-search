@@ -1,0 +1,29 @@
+{
+	"name": "Google USA Search",
+	"description": "Add google.com (forced United States region) to your search engines.",
+	"version": "1.0",
+	"manifest_version": 2,
+	"applications": {
+		"gecko": {
+			"id": "google-usa@ryouze.net",
+			"strict_min_version": "64.0"
+		}
+	},
+	"developer": {
+		"name": "ryouze (forked from jscher2000)",
+		"url": "https://github.com/ryouze/"
+	},
+	"icons": {
+		"48": "icons/google-48.png"
+	},
+	"web_accessible_resources": [
+		"icons/google-48.png"
+	],
+	"chrome_settings_overrides": {
+		"search_provider": {
+			"name": "Google USA",
+			"search_url": "https://www.google.com/search?hl=en&gl=us&q={searchTerms}",
+			"suggest_url": "https://www.google.com/complete/search?client=firefox&hl=en&gl=us&q={searchTerms}"
+		}
+	}
+}
