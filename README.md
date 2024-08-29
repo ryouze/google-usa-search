@@ -29,7 +29,7 @@ Follow these steps to install the extension:
     - Go to the [Releases](../../releases) page.
     - Download `google-usa-search.zip`.
 
-    If the zip doesn't work, right click the `manifest.json`, and the `icons` directory, then click `Compress`. Refer to [extensionworkshop.com/documentation/publish/package-your-extension](https://extensionworkshop.com/documentation/publish/package-your-extension/) for more information.
+    If the zip doesn't work, go to the `src` directory, then right click the `manifest.json`, and the `icons` directory, then click `Compress`. Refer to [extensionworkshop.com/documentation/publish/package-your-extension](https://extensionworkshop.com/documentation/publish/package-your-extension/) for more information.
 
 
 3. **Install the extension**:
